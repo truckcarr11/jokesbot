@@ -1,0 +1,27 @@
+{
+  "name": "jokesbot",
+  "version": "1.0.0",
+  "description": "Bot that sends jokes through text messages.",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/truckcarr11/jokesbot.git"
+  },
+  "author": "Tyler Carr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/truckcarr11/jokesbot/issues"
+  },
+  "homepage": "https://github.com/truckcarr11/jokesbot#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "nodemailer": "^4.6.7",
+    "request": "^2.87.0"
+  },
+  "engines": {
+    "node": "8.11.1"
+  }
+}
