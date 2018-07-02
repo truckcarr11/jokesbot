@@ -19,7 +19,10 @@ const options = {
     }
 }
 
-setInterval(function(){
+getJoke();
+setInterval(getJoke, 3600000);
+
+function getJoke(){
     request(options, function (error, response, body) {
         if(error) console.log('error:', error);
         else {
@@ -34,7 +37,7 @@ setInterval(function(){
             }
         }
     });
-}, 3600000);
+}
 
 function sendText(joke){
     var mailOptions = {
